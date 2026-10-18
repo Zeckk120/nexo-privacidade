@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6f5fc" />
+  <title>Privacidade — Nexo</title>
+  <style>
+    :root{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#191a39;background:#f6f5fc}*{box-sizing:border-box}body{margin:0;padding:30px 16px 48px}.page{width:min(760px,100%);margin:0 auto}.brand{display:flex;align-items:center;gap:10px;margin-bottom:24px;color:#17163f;font-weight:800;font-size:20px}.mark{display:grid;place-items:center;width:38px;height:38px;border-radius:13px;background:#efedff;color:#6655f5;font-size:21px}.card{padding:clamp(22px,5vw,42px);border:1px solid #ececf6;border-radius:22px;background:#fff;box-shadow:0 18px 50px #302c6b0a}.eyebrow{color:#6655f5;font-size:10px;font-weight:800;letter-spacing:1.2px}h1{margin:8px 0 5px;color:#17163f;font-size:clamp(28px,6vw,38px);letter-spacing:-1.2px}time,.updated{color:#8586a0;font-size:12px}p,li{color:#555a75;font-size:14px;line-height:1.75}h2{margin:28px 0 7px;color:#17163f;font-size:18px}a{color:#5949df}.notice{margin:20px 0;padding:14px 16px;border:1px solid #f1d79b;border-radius:13px;background:#fff9e9;color:#735a22;font-size:12px;line-height:1.65}.contact{padding:14px 16px;border-radius:13px;background:#f7f6ff;color:#5b5874;font-size:13px;line-height:1.65}.footer{margin-top:18px;color:#9798ad;font-size:11px;text-align:center}
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="brand"><span class="mark" aria-hidden="true">n</span><span>nexo.</span></div>
+    <article class="card">
+      <div class="eyebrow">NEXO · PRIVACIDADE</div>
+      <h1>Política de Privacidade</h1>
+      <p class="updated">Última atualização: 17 de outubro de 2026</p>
+
+      <p>Esta política descreve o tratamento de dados na versão Android e na versão Web do Nexo, uma biblioteca para leitura e organização de arquivos escolhidos pela própria pessoa usuária.</p>
+
+      <h2>Dados armazenados no dispositivo</h2>
+      <p><strong>Nexo para Android:</strong> a pessoa escolhe os arquivos pelo seletor do próprio Android. O aplicativo não pede acesso amplo ao armazenamento; só importa os itens escolhidos e os copia para o espaço privado do Nexo. O banco SQLite guarda nome, formato, tamanho, data de importação, favoritos e progresso de leitura. O aplicativo não exige conta e, nesta versão, não inclui anúncios nem SDK de publicidade.</p>
+      <p><strong>Nexo Web:</strong> o nome do perfil e a escolha de anúncios ficam no armazenamento local do navegador. As cópias dos arquivos e os metadados da biblioteca ficam no IndexedDB desse navegador. A versão Web não possui conta nem sincronização com nuvem.</p>
+      <p>O Nexo processa esses dados para importar, organizar, abrir arquivos e preservar o progresso de leitura. A biblioteca não é enviada a um servidor próprio do Nexo.</p>
+
+      <h2>Backup e retenção</h2>
+      <p>No Android, dependendo das configurações de backup do dispositivo, o sistema Android pode incluir dados do aplicativo no backup associado à conta Google. O Google Drive integrado diretamente ao Nexo ainda não está disponível. Na Web, os dados permanecem no perfil local do navegador até serem removidos pela pessoa usuária ou apagados nas configurações do navegador.</p>
+      <p>As cópias Android podem ser removidas individualmente pela biblioteca ou em conjunto pela tela Privacidade. Desinstalar o aplicativo remove os dados locais do app; a retenção em backups do sistema segue as regras e configurações do Android/Google.</p>
+
+      <h2>Anúncios, cookies e terceiros</h2>
+      <p>A versão Android atual não exibe anúncios. Na versão Web, o espaço de banner é apenas visual e o AdSense está desativado por padrão. O código também exige uma escolha afirmativa antes de qualquer solicitação de anúncio; rejeitar ou não escolher mantém as solicitações bloqueadas. A escolha fica no armazenamento local até ser alterada ou os dados do site serem apagados, e pode ser reaberta em Ajustes.</p>
+      <p>Antes de ativar anúncios em produção, o responsável precisa configurar a plataforma de gestão de consentimento (CMP) apropriada no Google AdSense. Para anúncios personalizados a pessoas no Espaço Econômico Europeu, Reino Unido e Suíça, o Google exige uma CMP certificada por ele e integrada ao IAB TCF. O controle de consentimento do Nexo, isoladamente, não substitui essa integração.</p>
+      <p>Após a aceitação, o Google poderá processar dados necessários para veicular e medir anúncios, incluindo cookies ou tecnologias de armazenamento local, conforme suas próprias políticas. Consulte <a href="https://policies.google.com/technologies/ads?hl=pt-BR" rel="noreferrer">Como o Google usa informações de sites ou apps que utilizam os serviços dele</a> e <a href="https://policies.google.com/privacy?hl=pt-BR" rel="noreferrer">Política de Privacidade do Google</a>. O Nexo não usa os nomes dos arquivos nem o conteúdo dos documentos para selecionar anúncios.</p>
+
+      <h2>Escolhas e exclusão</h2>
+      <ul>
+        <li>Você escolhe quais arquivos importar e pode remover as cópias da biblioteca.</li>
+        <li>No Android, Ajustes → Privacidade permite apagar todas as cópias importadas e o progresso local.</li>
+        <li>Na Web, você pode remover arquivos dentro da biblioteca ou apagar os dados do site nas configurações do navegador. A escolha de anúncios fica salva até ser alterada ou os dados do site serem apagados.</li>
+        <li>As preferências de publicidade podem ser alteradas em Ajustes. A recusa impede novas solicitações de anúncios; cookies de terceiros já gravados devem ser gerenciados pelas configurações do navegador e pelos controles do Google.</li>
+      </ul>
+
+      <h2>Segurança e compartilhamento</h2>
+      <p>Os arquivos ficam no armazenamento local controlado pelo navegador ou pelo Android. O Nexo não vende a biblioteca nem compartilha seus arquivos com terceiros. Se anúncios forem aceitos na Web, haverá comunicação com o Google para carregar e veicular anúncios, nos termos descritos acima.</p>
+
+      <h2>Responsável e contato de privacidade</h2>
+      <div class="contact"><strong>Aplicativo:</strong> Nexo<br /><strong>Responsável:</strong> Salvador<br /><strong>Contato para dúvidas e solicitações:</strong> <a href="mailto:matozinho2013@gmail.com">matozinho2013@gmail.com</a></div>
+
+      <h2>Atualizações</h2>
+      <p>Esta política será atualizada quando o Nexo adicionar recursos que alterem os dados armazenados ou compartilhados. A versão publicada deve corresponder ao aplicativo e à declaração Data safety do Google Play.</p>
+    </article>
+    <p class="footer">Nexo · uma biblioteca local para suas leituras</p>
+  </main>
+</body>
+</html>
