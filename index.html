@@ -15,12 +15,12 @@
     <article class="card">
       <div class="eyebrow">NEXO · PRIVACIDADE</div>
       <h1>Política de Privacidade</h1>
-      <p class="updated">Última atualização: 17 de outubro de 2026</p>
+      <p class="updated">Última atualização: 8 de novembro de 2026</p>
 
       <p>Esta política descreve o tratamento de dados na versão Android e na versão Web do Nexo, uma biblioteca para leitura e organização de arquivos escolhidos pela própria pessoa usuária.</p>
 
       <h2>Dados armazenados no dispositivo</h2>
-      <p><strong>Nexo para Android:</strong> a pessoa escolhe os arquivos pelo seletor do próprio Android. O aplicativo não pede acesso amplo ao armazenamento; só importa os itens escolhidos e os copia para o espaço privado do Nexo. O banco SQLite guarda nome, formato, tamanho, data de importação, favoritos e progresso de leitura. O aplicativo não exige conta e, nesta versão, não inclui anúncios nem SDK de publicidade.</p>
+      <p><strong>Nexo para Android:</strong> a pessoa escolhe os arquivos pelo seletor do próprio Android. O aplicativo não pede acesso amplo ao armazenamento; só importa os itens escolhidos e os copia para o espaço privado do Nexo. O banco SQLite guarda nome, formato, tamanho, data de importação, favoritos e progresso de leitura. O aplicativo não exige conta. A versão Android disponível atualmente não inclui anúncios nem o Google Mobile Ads SDK.</p>
       <p><strong>Nexo Web:</strong> o nome do perfil e a escolha de anúncios ficam no armazenamento local do navegador. As cópias dos arquivos e os metadados da biblioteca ficam no IndexedDB desse navegador. A versão Web não possui conta nem sincronização com nuvem.</p>
       <p>O Nexo processa esses dados para importar, organizar, abrir arquivos e preservar o progresso de leitura. A biblioteca não é enviada a um servidor próprio do Nexo.</p>
 
@@ -29,9 +29,10 @@
       <p>As cópias Android podem ser removidas individualmente pela biblioteca ou em conjunto pela tela Privacidade. Desinstalar o aplicativo remove os dados locais do app; a retenção em backups do sistema segue as regras e configurações do Android/Google.</p>
 
       <h2>Anúncios, cookies e terceiros</h2>
-      <p>A versão Android atual não exibe anúncios. Na versão Web, o espaço de banner é apenas visual e o AdSense está desativado por padrão. O código também exige uma escolha afirmativa antes de qualquer solicitação de anúncio; rejeitar ou não escolher mantém as solicitações bloqueadas. A escolha fica no armazenamento local até ser alterada ou os dados do site serem apagados, e pode ser reaberta em Ajustes.</p>
-      <p>Antes de ativar anúncios em produção, o responsável precisa configurar a plataforma de gestão de consentimento (CMP) apropriada no Google AdSense. Para anúncios personalizados a pessoas no Espaço Econômico Europeu, Reino Unido e Suíça, o Google exige uma CMP certificada por ele e integrada ao IAB TCF. O controle de consentimento do Nexo, isoladamente, não substitui essa integração.</p>
-      <p>Após a aceitação, o Google poderá processar dados necessários para veicular e medir anúncios, incluindo cookies ou tecnologias de armazenamento local, conforme suas próprias políticas. Consulte <a href="https://policies.google.com/technologies/ads?hl=pt-BR" rel="noreferrer">Como o Google usa informações de sites ou apps que utilizam os serviços dele</a> e <a href="https://policies.google.com/privacy?hl=pt-BR" rel="noreferrer">Política de Privacidade do Google</a>. O Nexo não usa os nomes dos arquivos nem o conteúdo dos documentos para selecionar anúncios.</p>
+      <p><strong>Android:</strong> a versão atualmente disponível não exibe anúncios e não inclui o Google Mobile Ads SDK. Uma versão futura poderá usar o Google AdMob. Quando o SDK estiver incluído e ativo, ele poderá coletar e compartilhar automaticamente endereço IP (que pode ser usado para estimar localização geral), interações com o app e anúncios, informações de diagnóstico e identificadores de dispositivo ou conta, como o ID de publicidade do Android e o App Set ID. Segundo a documentação do Google, esses dados podem ser usados para publicidade, análise e prevenção a fraudes e são transmitidos com criptografia TLS. O SDK não recebe os nomes dos arquivos nem o conteúdo da biblioteca para segmentar anúncios. Consulte a <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure?hl=pt-br" rel="noreferrer">declaração de dados do Google Mobile Ads SDK para Google Play</a>.</p>
+      <p><strong>Web:</strong> o espaço de banner é apenas visual e o Google AdSense está desativado por padrão. Mesmo quando configurado, o código exige uma escolha afirmativa antes de solicitar anúncios; rejeitar ou não escolher mantém as solicitações bloqueadas. A escolha fica no armazenamento local até ser alterada ou os dados do site serem apagados, e pode ser reaberta em Ajustes.</p>
+      <p>Antes de veicular anúncios personalizados a pessoas no Espaço Econômico Europeu, Reino Unido ou Suíça, o Google exige uma plataforma de gestão de consentimento (CMP) certificada por ele e integrada ao IAB TCF. O Nexo deverá integrar a CMP adequada antes de ativar anúncios nessas regiões. A escolha de consentimento e as opções de anúncios precisam permanecer acessíveis à pessoa usuária. Consulte também <a href="https://support.google.com/admob/answer/13554116?hl=pt-BR" rel="noreferrer">os requisitos de consentimento do AdMob para essas regiões</a>.</p>
+      <p>Para mais informações, consulte <a href="https://policies.google.com/technologies/ads?hl=pt-BR" rel="noreferrer">Como o Google usa informações de sites ou apps que utilizam os serviços dele</a> e a <a href="https://policies.google.com/privacy?hl=pt-BR" rel="noreferrer">Política de Privacidade do Google</a>. A biblioteca continua local e o Nexo não usa os nomes dos arquivos nem o conteúdo dos documentos para selecionar anúncios.</p>
 
       <h2>Escolhas e exclusão</h2>
       <ul>
@@ -42,7 +43,7 @@
       </ul>
 
       <h2>Segurança e compartilhamento</h2>
-      <p>Os arquivos ficam no armazenamento local controlado pelo navegador ou pelo Android. O Nexo não vende a biblioteca nem compartilha seus arquivos com terceiros. Se anúncios forem aceitos na Web, haverá comunicação com o Google para carregar e veicular anúncios, nos termos descritos acima.</p>
+      <p>Os arquivos ficam no armazenamento local controlado pelo navegador ou pelo Android. O Nexo não vende a biblioteca nem compartilha seus arquivos com terceiros. Se anúncios forem ativados na Web ou em uma futura versão Android, haverá comunicação com o Google para carregar e veicular anúncios e para os tratamentos descritos acima.</p>
 
       <h2>Responsável e contato de privacidade</h2>
       <div class="contact"><strong>Aplicativo:</strong> Nexo<br /><strong>Responsável:</strong> Salvador<br /><strong>Contato para dúvidas e solicitações:</strong> <a href="mailto:matozinho2013@gmail.com">matozinho2013@gmail.com</a></div>
